@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Eminbe: Yaratıcılık, Pazarlama ve Tasarım Çözümleri</title>
+  <meta name="description" content="Eminbe dijital deneyimlerle dünyayı değiştiriyor. İçerik oluşturun, sunun ve optimize edin — tüm araçlar tek bir yerde."/>
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<!-- ========== TOP UTILITY BAR ========== -->
+<div class="utility-bar">
+  <div class="container-fluid px-4">
+    <div class="d-flex justify-content-between align-items-center">
+      <div class="d-flex gap-3">
+        <a href="#" class="utility-link">Bireysel</a>
+        <a href="#" class="utility-link">İşletme</a>
+        <a href="#" class="utility-link">Eğitim</a>
+      </div>
+      <div class="d-flex gap-3 align-items-center">
+        <a href="#" class="utility-link"><i class="bi bi-globe me-1"></i>TR</a>
+        <a href="#" class="utility-link">Oturum Aç</a>
+        <a href="#" class="btn btn-primary btn-sm px-3 rounded-pill">Ücretsiz Dene</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ========== MAIN NAVBAR ========== -->
+<nav class="navbar navbar-expand-lg main-navbar sticky-top" id="mainNavbar">
+  <div class="container-fluid px-4">
+    <!-- Logo -->
+    <a class="navbar-brand d-flex align-items-center gap-2" href="#">
+      <div class="logo-box">
+        <span class="logo-e">E</span>
+      </div>
+      <span class="brand-name">eminbe</span>
+    </a>
+
+    <button class="navbar-toggler text-white border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <i class="bi bi-list fs-4"></i>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav me-auto ms-4 gap-1">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-text" href="#" data-bs-toggle="dropdown">Yaratıcılık ve Tasarım</a>
+          <div class="dropdown-menu mega-menu p-4">
+            <div class="row g-4">
+              <div class="col-md-3">
+                <p class="mega-cat">Fotoğraf</p>
+                <a class="dropdown-item mega-item" href="#"><i class="bi bi-camera me-2 text-purple"></i>Eminbe Fotoğraf</a>
+                <a class="dropdown-item mega-item" href="#"><i class="bi bi-brightness-high me-2 text-purple"></i>Eminbe Aydınlat</a>
+              </div>
+              <div class="col-md-3">
+                <p class="mega-cat">Grafik Tasarım</p>
+                <a class="dropdown-item mega-item" href="#"><i class="bi bi-vector-pen me-2 text-purple"></i>Eminbe Çizgi</a>
+                <a class="dropdown-item mega-item" href="#"><i class="bi bi-brush me-2 text-purple"></i>Eminbe Boya</a>
+              </div>
+              <div class="col-md-3">
+                <p class="mega-cat">Video</p>
+                <a class="dropdown-item mega-item" href="#"><i class="bi bi-play-circle me-2 text-purple"></i>Eminbe Video</a>
+                <a class="dropdown-item mega-item" href="#"><i class="bi bi-film me-2 text-purple"></i>Eminbe Efekt</a>
+              </div>
+              <div class="col-md-3">
+                <p class="mega-cat">AI Araçları</p>
+                <a class="dropdown-item mega-item" href="#"><i class="bi bi-stars me-2 text-purple"></i>Eminbe Ateş</a>
+                <a class="dropdown-item mega-item" href="#"><i class="bi bi-robot me-2 text-purple"></i>Eminbe AI Stüdyo</a>
+              </div>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-text" href="#" data-bs-toggle="dropdown">PDF ve E-İmza</a>
+          <div class="dropdown-menu p-3" style="min-width:220px;">
+            <a class="dropdown-item mega-item" href="#"><i class="bi bi-file-pdf me-2 text-purple"></i>Eminbe Belge</a>
+            <a class="dropdown-item mega-item" href="#"><i class="bi bi-pen me-2 text-purple"></i>Eminbe İmza</a>
+            <a class="dropdown-item mega-item" href="#"><i class="bi bi-cloud me-2 text-purple"></i>Eminbe Bulut</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle nav-text" href="#" data-bs-toggle="dropdown">Pazarlama</a>
+          <div class="dropdown-menu p-3" style="min-width:220px;">
+            <a class="dropdown-item mega-item" href="#"><i class="bi bi-bar-chart me-2 text-purple"></i>Eminbe Analitik</a>
+            <a class="dropdown-item mega-item" href="#"><i class="bi bi-megaphone me-2 text-purple"></i>Eminbe Kampanya</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link nav-text" href="#">Fiyatlandırma</a>
+        </li>
+      </ul>
+      <div class="d-flex align-items-center gap-2">
+        <a href="#" class="btn btn-outline-light btn-sm px-3 rounded-pill">Oturum Aç</a>
+        <a href="#" class="btn btn-primary-em btn-sm px-3 rounded-pill">Ücretsiz Dene</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<!-- ========== HERO SECTION ========== -->
+<section class="hero-section position-relative overflow-hidden">
+  <div class="hero-bg-overlay"></div>
+  <img src="hero_banner.png" alt="Eminbe Hero Banner" class="hero-img"/>
+  <div class="container position-relative z-2 h-100">
+    <div class="row h-100 align-items-center">
+      <div class="col-lg-6 py-5 mt-3">
+        <div class="hero-badge mb-3">
+          <i class="bi bi-stars me-2"></i>Yapay Zeka Destekli
+        </div>
+        <h1 class="hero-title">Yaratıcılığın<br/><span class="gradient-text">Yeni Boyutu</span><br/>ile Tanışın</h1>
+        <p class="hero-sub mt-3">Tasarım, video, fotoğraf ve belge yönetimi için tek platform. Yapay zeka ile sınırları zorla.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="#" class="btn btn-primary-em btn-lg px-5 rounded-pill">Ücretsiz Başla</a>
+          <a href="#" class="btn btn-outline-light btn-lg px-4 rounded-pill">Planları Gör</a>
+        </div>
+        <p class="mt-3 text-muted small">Kredi kartı gerekmez &mdash; ücretsiz sürümle başla</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CATEGORY LINK BAR ========== -->
+<div class="category-bar py-3">
+  <div class="container-fluid px-4">
+    <div class="d-flex flex-wrap justify-content-center gap-2">
+      <a href="#" class="cat-chip active"><i class="bi bi-camera me-1"></i>Fotoğraf</a>
+      <a href="#" class="cat-chip"><i class="bi bi-vector-pen me-1"></i>Grafik Tasarım</a>
+      <a href="#" class="cat-chip"><i class="bi bi-film me-1"></i>Video</a>
+      <a href="#" class="cat-chip"><i class="bi bi-file-pdf me-1"></i>PDF & Belge</a>
+      <a href="#" class="cat-chip"><i class="bi bi-stars me-1"></i>AI Araçları</a>
+      <a href="#" class="cat-chip"><i class="bi bi-phone me-1"></i>Mobil</a>
+      <a href="#" class="cat-chip"><i class="bi bi-mortarboard me-1"></i>Eğitim</a>
+    </div>
+  </div>
+</div>
+
+<!-- ========== PRODUCTS SECTION ========== -->
+<section class="products-section py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-tag">Ürünlerimiz</span>
+      <h2 class="section-title mt-2">Profesyonellerin Tercihi</h2>
+      <p class="section-sub">Her ihtiyaç için özel geliştirilmiş araçlar — tek abonelikte hepsi.</p>
+    </div>
+
+    <div class="row g-4">
+      <!-- Product 1 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="product_photo_editor.png" alt="Eminbe Fotoğraf" class="product-img"/>
+            <div class="product-overlay">
+              <a href="#" class="btn btn-light btn-sm rounded-pill px-3">Daha Fazla</a>
+            </div>
+          </div>
+          <div class="product-body">
+            <div class="product-icon photo-icon"><i class="bi bi-camera-fill"></i></div>
+            <h3 class="product-name">Eminbe Fotoğraf</h3>
+            <p class="product-desc">AI destekli fotoğraf düzenleme, renk düzeltme ve içerik doldurma araçlarıyla profesyonel sonuçlar.</p>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <a href="#" class="btn-text-link">Ücretsiz Dene <i class="bi bi-arrow-right"></i></a>
+              <span class="price-badge">₺249/ay'dan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Product 2 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="product-card featured-card">
+          <div class="featured-badge"><i class="bi bi-star-fill me-1"></i>Popüler</div>
+          <div class="product-img-wrap">
+            <img src="product_illustrator.png" alt="Eminbe Çizgi" class="product-img"/>
+            <div class="product-overlay">
+              <a href="#" class="btn btn-light btn-sm rounded-pill px-3">Daha Fazla</a>
+            </div>
+          </div>
+          <div class="product-body">
+            <div class="product-icon illus-icon"><i class="bi bi-vector-pen"></i></div>
+            <h3 class="product-name">Eminbe Çizgi</h3>
+            <p class="product-desc">Vektör grafikleri, logolar ve illüstrasyonlar oluşturun. Sonsuz ölçeklenebilir, evrensel uyumlu.</p>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <a href="#" class="btn-text-link">Ücretsiz Dene <i class="bi bi-arrow-right"></i></a>
+              <span class="price-badge">₺199/ay'dan</span>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Product 3 -->
+      <div class="col-lg-4 col-md-6">
+        <div class="product-card">
+          <div class="product-img-wrap">
+            <img src="product_ai_art.png" alt="Eminbe Ateş" class="product-img"/>
+            <div class="product-overlay">
+              <a href="#" class="btn btn-light btn-sm rounded-pill px-3">Daha Fazla</a>
+            </div>
+          </div>
+          <div class="product-body">
+            <div class="product-icon ai-icon"><i class="bi bi-stars"></i></div>
+            <h3 class="product-name">Eminbe Ateş</h3>
+            <p class="product-desc">Metin ile harika görseller üretin. Yapay zeka ile yaratıcılığınızı hız sınırı olmadan genişletin.</p>
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <a href="#" class="btn-text-link">Ücretsiz Kullan <i class="bi bi-arrow-right"></i></a>
+              <span class="price-badge free-badge">Ücretsiz</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- View All Products -->
+    <div class="text-center mt-5">
+      <a href="#" class="btn btn-outline-em btn-lg px-5 rounded-pill">Tüm Ürünleri Gör <i class="bi bi-arrow-right ms-1"></i></a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== AI FEATURE SECTION ========== -->
+<section class="ai-section py-5">
+  <div class="container">
+    <div class="row align-items-center g-5">
+      <div class="col-lg-5">
+        <span class="section-tag">Yapay Zeka</span>
+        <h2 class="section-title mt-2">Eminbe Ateş<br/>ile Hayal Et, Yarat</h2>
+        <p class="section-sub">Tek bir metin cümlesiyle olağanüstü görseller, vektörler ve şablonlar oluşturun. Ticari kullanıma uygun olarak tasarlandı.</p>
+        <ul class="feature-list mt-4">
+          <li><i class="bi bi-check-circle-fill text-purple me-2"></i>Saniyeler içinde görsel üret</li>
+          <li><i class="bi bi-check-circle-fill text-purple me-2"></i>Stilinizi özelleştir, markan için uyarla</li>
+          <li><i class="bi bi-check-circle-fill text-purple me-2"></i>Ticari lisansa dahil</li>
+          <li><i class="bi bi-check-circle-fill text-purple me-2"></i>Her büyüklükte format desteği</li>
+        </ul>
+        <a href="#" class="btn btn-primary-em mt-4 px-4 rounded-pill">Hemen Dene</a>
+      </div>
+      <div class="col-lg-7">
+        <div class="ai-demo-card">
+          <img src="product_ai_art.png" alt="Eminbe Ateş Demo" class="img-fluid rounded-4 w-100"/>
+          <div class="ai-prompt-bar">
+            <div class="d-flex align-items-center gap-2">
+              <i class="bi bi-stars text-purple fs-5"></i>
+              <span class="ai-prompt-text">"Gün batımında mor gökyüzü altında modern bir şehir silueti"</span>
+            </div>
+            <button class="btn btn-primary-em btn-sm rounded-pill px-3">Oluştur</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STATS SECTION ========== -->
+<section class="stats-section py-5">
+  <div class="container">
+    <div class="row g-4 text-center">
+      <div class="col-6 col-md-3">
+        <div class="stat-card">
+          <div class="stat-number">25M+</div>
+          <div class="stat-label">Aktif Kullanıcı</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-card">
+          <div class="stat-number">100+</div>
+          <div class="stat-label">Ülkede Erişim</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-card">
+          <div class="stat-number">50+</div>
+          <div class="stat-label">Profesyonel Araç</div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="stat-card">
+          <div class="stat-number">4.9★</div>
+          <div class="stat-label">Kullanıcı Puanı</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TESTIMONIALS SECTION ========== -->
+<section class="testimonials-section py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-tag">Kullanıcı Deneyimleri</span>
+      <h2 class="section-title mt-2">Onlar Ne Diyor?</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <div class="stars mb-3">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+          <p class="testimonial-text">"Eminbe Fotoğraf, iş akışımı tamamen değiştirdi. AI araçları sayesinde aynı işi 3 kat daha hızlı yapıyorum."</p>
+          <div class="d-flex align-items-center gap-3 mt-3">
+            <div class="avatar-circle photo-icon">MK</div>
+            <div>
+              <p class="mb-0 fw-600">Mehmet Kaya</p>
+              <small class="text-muted">Profesyonel Fotoğrafçı</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial-card featured-testimonial">
+          <div class="stars mb-3">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+          </div>
+          <p class="testimonial-text">"Eminbe Çizgi ile müşterilerime çok daha etkileyici logolar sunabiliyorum. Arayüz çok sezgisel ve hızlı."</p>
+          <div class="d-flex align-items-center gap-3 mt-3">
+            <div class="avatar-circle illus-icon">AY</div>
+            <div>
+              <p class="mb-0 fw-600">Ayşe Yılmaz</p>
+              <small class="text-muted">Grafik Tasarımcı</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="testimonial-card">
+          <div class="stars mb-3">
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-fill text-warning"></i>
+            <i class="bi bi-star-half text-warning"></i>
+          </div>
+          <p class="testimonial-text">"Eminbe Ateş'in AI görsel üretimi gerçekten inanılmaz. Markamız için içerik üretmek artık çok kolay."</p>
+          <div class="d-flex align-items-center gap-3 mt-3">
+            <div class="avatar-circle ai-icon">CK</div>
+            <div>
+              <p class="mb-0 fw-600">Can Koç</p>
+              <small class="text-muted">İçerik Üreticisi</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PRICING SECTION ========== -->
+<section class="pricing-section py-5">
+  <div class="container">
+    <div class="text-center mb-5">
+      <span class="section-tag">Fiyatlandırma</span>
+      <h2 class="section-title mt-2">Her Bütçeye Uygun Plan</h2>
+      <p class="section-sub">Ücretsiz başla, büyüdükçe geliştir.</p>
+    </div>
+    <div class="row g-4 justify-content-center">
+      <!-- Free -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pricing-card">
+          <div class="plan-badge free-plan">Ücretsiz</div>
+          <h3 class="plan-name">Başlangıç</h3>
+          <div class="plan-price">₺0 <span class="plan-period">/ay</span></div>
+          <ul class="plan-features">
+            <li><i class="bi bi-check2 text-purple me-2"></i>Eminbe Ateş (25 üretim/gün)</li>
+            <li><i class="bi bi-check2 text-purple me-2"></i>Temel fotoğraf düzenleme</li>
+            <li><i class="bi bi-check2 text-purple me-2"></i>5 GB bulut depolama</li>
+            <li><i class="bi bi-check2 text-purple me-2"></i>Mobil uygulama erişimi</li>
+          </ul>
+          <a href="#" class="btn btn-outline-em w-100 mt-3 rounded-pill">Ücretsiz Başla</a>
+        </div>
+      </div>
+      <!-- Pro -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pricing-card pro-card">
+          <div class="plan-badge pro-plan">En Popüler</div>
+          <h3 class="plan-name">Profesyonel</h3>
+          <div class="plan-price">₺249 <span class="plan-period">/ay</span></div>
+          <ul class="plan-features">
+            <li><i class="bi bi-check2 text-purple me-2"></i>Tüm yaratıcı uygulamalar</li>
+            <li><i class="bi bi-check2 text-purple me-2"></i>Sınırsız AI üretimi</li>
+            <li><i class="bi bi-check2 text-purple me-2"></i>100 GB bulut depolama</li>
+            <li><i class="bi bi-check2 text-purple me-2"></i>Öncelikli destek</li>
+            <li><i class="bi bi-check2 text-purple me-2"></i>Ticari lisans</li>
+          </ul>
+          <a href="#" class="btn btn-primary-em w-100 mt-3 rounded-pill">Şimdi Başla</a>
+        </div>
+      </div>
+      <!-- Business -->
+      <div class="col-lg-4 col-md-6">
+        <div class="pricing-card">
+          <div class="plan-badge biz-plan">İşletme</div>
+          <h3 class="plan-name">Kurumsal</h3>
+          <div class="plan-price">₺599 <span class="plan-period">/ay</span></div>
+          <ul class="plan-features">
+            <li><i class="bi bi-check2 text-purple me-2"></i>Ekip yönetimi (10 kullanıcı)</li>
+            <li><i class="bi bi-check2 text-purple me-2"></i>Marka kiti & şablonlar</li>
+            <li><i class="bi bi-check2 text-purple me-2"></i>1 TB bulut depolama</li>
+            <li><i class="bi bi-check2 text-purple me-2"></i>7/24 öncelikli destek</li>
+            <li><i class="bi bi-check2 text-purple me-2"></i>API erişimi</li>
+          </ul>
+          <a href="#" class="btn btn-outline-em w-100 mt-3 rounded-pill">Teklif Al</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== CTA SECTION ========== -->
+<section class="cta-section py-5">
+  <div class="container">
+    <div class="cta-card text-center p-5">
+      <h2 class="cta-title">Yaratıcılığını Serbest Bırak</h2>
+      <p class="cta-sub mt-3">Bugün ücretsiz başla. Kredi kartı gerekmez.</p>
+      <div class="d-flex justify-content-center gap-3 mt-4 flex-wrap">
+        <a href="#" class="btn btn-light btn-lg px-5 rounded-pill fw-600">Ücretsiz Başla</a>
+        <a href="#" class="btn btn-outline-light btn-lg px-4 rounded-pill">Planları Karşılaştır</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="main-footer py-5">
+  <div class="container">
+    <div class="row g-4 mb-5">
+      <div class="col-lg-3 col-md-6">
+        <div class="d-flex align-items-center gap-2 mb-3">
+          <div class="logo-box logo-sm"><span class="logo-e">E</span></div>
+          <span class="brand-name text-white">eminbe</span>
+        </div>
+        <p class="footer-desc">Yaratıcılar, tasarımcılar ve işletmeler için geliştirilmiş kapsamlı dijital araçlar platformu.</p>
+        <div class="d-flex gap-3 mt-3">
+          <a href="#" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-instagram"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-linkedin"></i></a>
+          <a href="#" class="social-icon"><i class="bi bi-youtube"></i></a>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-3 col-6">
+        <h6 class="footer-title">Ürünler</h6>
+        <ul class="footer-links">
+          <li><a href="#">Eminbe Fotoğraf</a></li>
+          <li><a href="#">Eminbe Çizgi</a></li>
+          <li><a href="#">Eminbe Video</a></li>
+          <li><a href="#">Eminbe Ateş</a></li>
+          <li><a href="#">Eminbe Belge</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-3 col-6">
+        <h6 class="footer-title">Çözümler</h6>
+        <ul class="footer-links">
+          <li><a href="#">Bireysel</a></li>
+          <li><a href="#">İşletme</a></li>
+          <li><a href="#">Eğitim</a></li>
+          <li><a href="#">Ajanslar</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-2 col-md-3 col-6">
+        <h6 class="footer-title">Kaynaklar</h6>
+        <ul class="footer-links">
+          <li><a href="#">Öğreticiler</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Topluluk</a></li>
+          <li><a href="#">Destek Merkezi</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-3 col-6">
+        <h6 class="footer-title">Bültenimize Katıl</h6>
+        <p class="footer-desc">Güncellemeler ve ipuçları için abone ol.</p>
+        <div class="input-group mt-2">
+          <input type="email" class="form-control footer-input" placeholder="E-posta adresin"/>
+          <button class="btn btn-primary-em" type="button"><i class="bi bi-send-fill"></i></button>
+        </div>
+      </div>
+    </div>
+    <hr class="footer-divider"/>
+    <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 mt-4">
+      <p class="footer-copy mb-0">© 2025 Eminbe Teknoloji A.Ş. Tüm hakları saklıdır.</p>
+      <div class="d-flex gap-3 flex-wrap">
+        <a href="#" class="footer-bottom-link">Gizlilik Politikası</a>
+        <a href="#" class="footer-bottom-link">Kullanım Şartları</a>
+        <a href="#" class="footer-bottom-link">Çerez Tercihleri</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
